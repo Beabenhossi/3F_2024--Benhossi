@@ -45,7 +45,7 @@ span{
     border-left: 2px solid var (var(--botao-ativo));
     border-right: 2px solid var (var(--botao-ativo));
 }
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
@@ -53,8 +53,11 @@ span{
     background-color: var(--texto-fundo);
     display: none;
 }
-.aba-conteudo,.ativo{
-    display: flex;
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-texto{
+    background-color: var(--botao-inativo);
 }
 
 .botoes {
